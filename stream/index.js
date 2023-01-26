@@ -22,4 +22,4 @@ readableStream.on('readable', () => {
 
 readableStream.on('end', () => {
     writableStream.end();
-})
+});
